@@ -1,0 +1,55 @@
+# ── Python ────────────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+
+# ── Virtuális környezetek ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+ENV/
+.env
+
+# ── Generált kimenetek (futtatás közben jönnek létre) ─────────────────────────
+outputs/*.png
+outputs/*.html
+outputs/*.csv
+outputs/*.json
+outputs/*.db
+outputs/*.pkl
+outputs/models/
+outputs/churn_api.py
+outputs/Dockerfile
+outputs/docker-compose.yml
+
+# ── MLflow ────────────────────────────────────────────────────────────────────
+mlruns/
+mlartifacts/
+
+# ── Jupyter ───────────────────────────────────────────────────────────────────
+.ipynb_checkpoints/
+*.ipynb
+
+# ── IDE / Szerkesztők ─────────────────────────────────────────────────────────
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# ── API kulcsok (SOHA ne kerüljön fel!) ───────────────────────────────────────
+.env
+*.env
+secrets.py
+config_local.py
+
+# ── Adatfájlok ────────────────────────────────────────────────────────────────
+*.csv
+*.parquet
+*.feather
+data/raw/
+data/processed/

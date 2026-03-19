@@ -1,0 +1,56 @@
+# ============================================================
+# Data Science Kurzus – Python csomagok
+# Telepítés: pip install -r requirements.txt
+# Python verzió: 3.10+
+# ============================================================
+
+# --- Alap adatkezelés ---
+numpy>=1.26.0
+pandas>=2.1.0
+scipy>=1.11.0
+
+# --- Vizualizáció ---
+matplotlib>=3.8.0
+seaborn>=0.13.0
+plotly>=5.18.0
+
+# --- Machine Learning ---
+scikit-learn>=1.4.0
+xgboost>=2.0.0
+lightgbm>=4.1.0
+catboost>=1.2.0
+
+# --- AutoML / Hyperparaméter-hangolás ---
+optuna>=3.5.0
+flaml>=2.1.0
+
+# --- Experiment tracking ---
+mlflow>=2.9.0
+
+# --- Statisztika ---
+statsmodels>=0.14.0
+pingouin>=0.5.4
+
+# --- Idősor-előrejelzés ---
+prophet>=1.1.5
+
+# --- NLP ---
+scikit-learn>=1.4.0   # TF-IDF már benne van
+
+# --- Hálózatelemzés ---
+networkx>=3.2.0
+
+# --- AI integráció ---
+openai>=1.6.0
+anthropic>=0.20.0
+
+# --- Deployment / API ---
+fastapi>=0.110.0
+uvicorn[standard]>=0.27.0
+pydantic>=2.5.0
+
+# --- Segédcsomagok ---
+python-dotenv>=1.0.0
+tqdm>=4.66.0
+joblib>=1.3.0
+requests>=2.31.0

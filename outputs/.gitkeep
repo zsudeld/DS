@@ -1,0 +1,3 @@
+# Ez a fájl csak azért létezik, hogy a git kövesse az üres outputs/ mappát.
+# A futtatás során itt jelennek meg a generált PNG, HTML és modell fájlok.
+# Ezek a fájlok .gitignore alapján nem kerülnek be a repóba.
